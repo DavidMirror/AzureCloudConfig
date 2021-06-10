@@ -37,7 +37,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 ```
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -106,7 +106,7 @@ We have installed the following Beats on these machines:
 - Filebeat, Metricbeat
 
 These Beats allow us to collect the following information from each machine:
-- Filebeat allows us to view logfiels as they are updated from each machine. Metricbeat allows us to monitor system resources for each machine
+- Filebeat allows us to view log files as they are updated from each machine. Metricbeat allows us to monitor system resources for each machine
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
